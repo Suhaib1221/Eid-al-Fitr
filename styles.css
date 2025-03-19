@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Countdown Container */
+  .countdown-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Countdown Timer */
+  .countdown {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .time-box {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .time-box span {
+    display: block;
+  }
+  
+  .time-box span:first-child {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .time-box .label {
+    font-size: 1rem;
+    color: #e0e0e0;
+  }
